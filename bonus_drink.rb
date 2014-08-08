@@ -12,7 +12,3 @@ class BonusDrink
     amount + (amount-1).abs/2
   end
 end
-
-(0..100).each do |amount|
-  print("amount:#{amount}, total:#{BonusDrink::total_count_for(amount)}\n")
-end
